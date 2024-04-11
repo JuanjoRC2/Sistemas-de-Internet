@@ -7,6 +7,7 @@ body {
 .seccion {
     display: flex;
 }
+
 h1 {
     text-align: center;
     font-size: 24px;
@@ -27,93 +28,77 @@ h1 {
     display: flex;
     background-color: white;
     padding: 20px;
+    height: 190px;
 }
 /* ------------------------------------------------------------------ CAJA DE GRAVEDAD----------------------------------------------------------------------------------*/
 .boxG {
     background-color: lavender;
     text-align: left;
-    flex:1;
-    margin: 0 25px;
+    margin-right: 20px;
     padding: 20px;
-    border-radius: 15px;
+    width: 210px;
+   
 }
 
 .boxG h2 {
     color: purple; 
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 0;
+
 }
 
 .boxG p {
     color: purple; /* Color de letra */
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+   
 }
 /* ------------------------------------------------------------------ CAJA DE FUERZA ELECTROMAGNETICA--------------------------------------------------------------*/
 .boxE {
     background-color:#e2e2ff ;
-    flex: 1;
-    margin: 0 25px;
-    padding: 10px;
-    border-radius: 7px;
+    text-align: left;
+    margin: 0 20px;
+    padding: 20px;
+    width: 210px;
+    
 }
 
 .boxE h2 {
     color: #000d80; 
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 0;
+
 }
 
 .boxE p {
     color: #000d80; /* Color de letra */
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+    
 }
 /* ------------------------------------------------------------------ CAJA DE FUERZA NUCLEAR FUERTE*--------------------------------------------------------------------------*/
 .boxNF {
     background-color:#e6faeb ;
-    flex: 1;
-    margin: 0 25px;
-    padding: 10px;
-    border-radius: 7px;
+    margin: 0 20px;
+    padding: 20px;
+    width: 210px;
+  
 }
 
 .boxNF h2 {
     color: green; 
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 0;
 }
 
 .boxNF p {
     color: green; /* Color de letra */
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+ 
 }
 /* ------------------------------------------------------------------ CAJA DE FUERZA NUCLEAR DEBIL*--------------------------------------------------------------------------*/
 .boxND {
     background-color: #fafae6 ;
-    flex: 1;
-    margin: 0 25px;
-    padding: 10px;
-    border-radius: 7px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 210px;
+    
 }
 
 .boxND h2 {
     color: #806e00; 
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 0;
 }
 
 .boxND p {
     color: #806e00 ; /* Color de letra */
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+    
 }
